@@ -7,7 +7,7 @@
              <img src="{{asset('assets/images/footer_logo.png')}}" alt="#" />
            </div>
            <div class="full white_fonts">
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+             <p>The study website for flashcards, languages and learning</p>
            </div>
          </div>
        </div>

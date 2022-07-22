@@ -45,10 +45,8 @@
                                 <div class="col-md-12">
                                     <div class="slide_text">
                                         <h3><span span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                        <h4>Free Educations</h4>
-                                        <br>
                                         <div class="full center">
-										    <a class="contact_bt" href="courses.html">Start a Course</a>
+										    <a class="contact_bt" href="{{URL::to('/daily-vocab')}}">Start</a>
 										</div>
                                     </div>
                                 </div>
@@ -61,10 +59,8 @@
                                 <div class="col-md-12">
                                     <div class="slide_text">
                                         <h3><span span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                        <h4>Free Educations</h4>
-                                        <br>
                                         <div class="full center">
-										    <a class="contact_bt" href="courses.html">Start a Course</a>
+										    <a class="contact_bt" href="{{URL::to('/daily-vocab')}}">Start</a>
 										</div>
                                     </div>
                                 </div>
@@ -83,7 +79,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="tab_menu" style="text-align: center">
+                    <div class="tab_menu">
                         <ul>
                             <li>
                                 <a href="#">

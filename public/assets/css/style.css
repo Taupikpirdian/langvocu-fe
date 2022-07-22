@@ -447,7 +447,24 @@ a.navbar-brand img {
     overflow: scroll;
 }
 .tab_menu ul {
-    width: 950px;
+    width: 660px;
+}
+@media only screen and (max-width: 990px) {
+	.tab_menu ul {
+		width: 300px;
+	}
+}
+.tab_menu ul li {
+    width: 20.25%;
+    float: left;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 990px) {
+	.tab_menu ul li {
+		width: 33.25% !important;
+	}
 }
 .full > img {
     width: 100%;
@@ -675,7 +692,8 @@ a.navbar-brand img {
 }
 
 .tab_menu {
-    width: 100%;
+    width: 54%;
+	left: 22%;
     height: 110px;
     background: #fff;
     float: left;
@@ -718,14 +736,6 @@ a.navbar-brand img {
     text-align: center;
     width: 100%;
     float: left;
-}
-
-.tab_menu ul li {
-    width: 14.25%;
-    float: left;
-    padding: 25px 0;
-    display: flex;
-    justify-content: center;
 }
 
 span.icon {
